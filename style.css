@@ -1,0 +1,19 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@media screen and (width < 700px) {
+    .container {
+        padding: 10px;
+        background-color: blueviolet;
+    }
+}
+
+@media screen and (width >=700px) {
+    .container {
+        padding: 30px;
+        background-color: orange;
+    }
+}
